@@ -38,39 +38,12 @@ This project builds a Convolutional Neural Network (CNN) for traffic sign classi
 
 ## Steps to Run
 
-1. Verify Dataset Path:  
-   dataset_path = "./Images"  
-   if not os.path.exists(dataset_path):  
-       print(f"The dataset path {dataset_path} doesn't exist!")  
-   else:  
-       print("Dataset found!")  
-
+1. Verify Dataset Path:   
 2. Build the CNN Model:  
-   model = Sequential([  
-       Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)),  
-       MaxPooling2D(pool_size=(2, 2)),  
-       Conv2D(64, (3, 3), activation='relu'),  
-       MaxPooling2D(pool_size=(2, 2)),  
-       Flatten(),  
-       Dense(128, activation='relu'),  
-       Dropout(0.5),  
-       Dense(num_classes, activation='softmax')  
-   ])  
-   model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])  
-
 3. Train the Model:  
-   history = model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=30, batch_size=32)  
-
-4. Evaluate the Model:  
-   with tf.device('/GPU:0'):  
-       pred = np.argmax(model.predict(X_test), axis=-1)  
-   print(accuracy_score(labels, pred))  
-
+4. Evaluate the Model:   
 5. Save the Model:  
-   model.save('traffic_sign_classifier.h5')  
-
----
-
+ 
 ## Environment Management
 
 - To activate the environment:  
