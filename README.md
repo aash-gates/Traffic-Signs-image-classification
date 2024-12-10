@@ -11,6 +11,7 @@ This project builds a Convolutional Neural Network (CNN) for traffic sign classi
 
 2. Create a Virtual Environment:
    `conda create -n traffic_signs python=3.9 -y  `
+
    `conda activate traffic_signs  `
 
 3. Install Required Libraries:
