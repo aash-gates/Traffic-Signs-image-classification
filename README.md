@@ -10,11 +10,11 @@ This project builds a Convolutional Neural Network (CNN) for traffic sign classi
    Download and install Anaconda from https://www.anaconda.com/.
 
 2. Create a Virtual Environment:
-   conda create -n traffic_signs python=3.9 -y  
-   conda activate traffic_signs  
+   `conda create -n traffic_signs python=3.9 -y  `
+   `conda activate traffic_signs  `
 
 3. Install Required Libraries:
-   pip install tensorflow scikit-learn pillow matplotlib  
+   `pip install tensorflow scikit-learn pillow matplotlib  `
 
 4. Dataset Requirements:
    Place the dataset in the following format:  
@@ -47,10 +47,10 @@ This project builds a Convolutional Neural Network (CNN) for traffic sign classi
 ## Environment Management
 
 - To activate the environment:  
-   conda activate traffic_signs  
+   `conda activate traffic_signs  `
 
 - To deactivate the environment:  
-   conda deactivate  
+   `conda deactivate  `
 
 ---
 
