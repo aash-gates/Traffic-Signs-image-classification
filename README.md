@@ -26,7 +26,23 @@ jupyter notebook
 
 1. The dataset should follow this folder structure:
 
-traffic_signs_dataset/ ├── train/ │ ├── class_1/ │ │ ├── image1.jpg │ │ ├── image2.jpg │ │ └── ... │ ├── class_2/ │ │ ├── image1.jpg │ │ ├── image2.jpg │ │ └── ... │ └── ... └── val/ ├── class_1/ │ ├── image1.jpg │ ├── image2.jpg │ └── ... ├── class_2/ │ ├── image1.jpg │ ├── image2.jpg │ └── ... └── ...
+traffic_signs_dataset/ 
+├── train/ │
+   ├── class_1/ │ │ 
+       ├── image1.jpg │
+       │ ├── image2.jpg │ 
+       │ └── ... │ 
+       ├── class_2/ │
+       │ ├── image1.jpg │ 
+       │ ├── image2.jpg │ 
+       │ └── ... │ └── ... └── val/ 
+       ├── class_1/ │ 
+       ├── image1.jpg │ 
+       ├── image2.jpg │ 
+       └── ... ├── class_2/ │ 
+       ├── image1.jpg │ 
+       ├── image2.jpg │ 
+       └── ... └── ...
 
 2. Ensure the `traffic_signs_dataset` folder is in the same directory as the Python script or Jupyter Notebook.
 
